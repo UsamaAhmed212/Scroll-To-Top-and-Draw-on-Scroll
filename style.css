@@ -8,10 +8,7 @@
     height: 16px;
     width: 16px;
 }
-  
-/* ::-webkit-scrollbar:disabled {
-    background: transparent;
-} */
+
   
 ::-webkit-scrollbar-track {
     height: 20px;
@@ -53,6 +50,9 @@
 
 
 
+:root {
+    scroll-behavior: unset;
+}
 
 .scroll-to-top {
     position: fixed;
